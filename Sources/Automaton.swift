@@ -7,6 +7,7 @@
 //
 
 import RxSwift
+import RxCocoa
 
 //
 // Terminology:
@@ -164,22 +165,22 @@ extension Observable {
 }
 
 // No idea why this is not in RxSwift but RxCocoa...
-extension ObservableType {
-    fileprivate func bindTo(_ variable: Variable<E>) -> Disposable {
-        return subscribe { e in
-            switch e {
-            case let .next(element):
-                variable.value = element
-            case let .error(error):
-                let error = "Binding error to variable: \(error)"
-                #if DEBUG
-                    rxFatalError(error)
-                #else
-                    print(error)
-                #endif
-            case .completed:
-                break
-            }
-        }
-    }
-}
+//extension ObservableType {
+//    fileprivate func bindTo(_ variable: Variable<E>) -> Disposable {
+//        return subscribe { e in
+//            switch e {
+//            case let .next(element):
+//                variable.value = element
+//            case let .error(error):
+//                let error = "Binding error to variable: \(error)"
+//                #if DEBUG
+//                    rxFatalError(error)
+//                #else
+//                    print(error)
+//                #endif
+//            case .completed:
+//                break
+//            }
+//        }
+//    }
+//}

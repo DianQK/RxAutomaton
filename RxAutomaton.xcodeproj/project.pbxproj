@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2613A40A1DB8BEF9000F27D3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488743251D61931300BF70F4 /* RxCocoa.framework */; };
 		4822CC351D6194FD00783A77 /* MappingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822CC301D6194FD00783A77 /* MappingSpec.swift */; };
 		4822CC3A1D61961300783A77 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822CC391D61961300783A77 /* RxSwift.framework */; };
 		4822CC3B1D61961300783A77 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822CC391D61961300783A77 /* RxSwift.framework */; };
@@ -14,7 +15,7 @@
 		4822CC3D1D61966700783A77 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488742E21D61923F00BF70F4 /* Quick.framework */; };
 		4822CC401D61969C00783A77 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822CC3F1D61969C00783A77 /* Fixtures.swift */; };
 		4822CC421D6197A800783A77 /* ToRACHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822CC411D6197A800783A77 /* ToRACHelper.swift */; };
-		4822CC431D619A2400783A77 /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488743351D61931300BF70F4 /* RxTests.framework */; };
+		4822CC431D619A2400783A77 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488743351D61931300BF70F4 /* RxTest.framework */; };
 		487BDE631D619D3200C86902 /* AnyMappingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822CC2F1D6194FD00783A77 /* AnyMappingSpec.swift */; };
 		487BDE641D619D4500C86902 /* TerminatingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822CC331D6194FD00783A77 /* TerminatingSpec.swift */; };
 		487BDE6B1D61AFF300C86902 /* StrategyLatestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822CC321D6194FD00783A77 /* StrategyLatestSpec.swift */; };
@@ -406,6 +407,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2613A40A1DB8BEF9000F27D3 /* RxCocoa.framework in Frameworks */,
 				4822CC3A1D61961300783A77 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +416,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4822CC431D619A2400783A77 /* RxTests.framework in Frameworks */,
+				4822CC431D619A2400783A77 /* RxTest.framework in Frameworks */,
 				4822CC3D1D61966700783A77 /* Quick.framework in Frameworks */,
 				4822CC3C1D61966000783A77 /* Nimble.framework in Frameworks */,
 				4822CC3B1D61961300783A77 /* RxSwift.framework in Frameworks */,
@@ -591,7 +593,7 @@
 				4887432F1D61931300BF70F4 /* RxBlocking.framework */,
 				488743311D61931300BF70F4 /* RxBlocking.framework */,
 				488743331D61931300BF70F4 /* RxBlocking.framework */,
-				488743351D61931300BF70F4 /* RxTests.framework */,
+				488743351D61931300BF70F4 /* RxTest.framework */,
 				488743371D61931300BF70F4 /* RxTests.framework */,
 				488743391D61931300BF70F4 /* RxTests.framework */,
 				4887433B1D61931300BF70F4 /* RxTests.framework */,
@@ -989,31 +991,31 @@
 			remoteRef = 488743321D61931300BF70F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		488743351D61931300BF70F4 /* RxTests.framework */ = {
+		488743351D61931300BF70F4 /* RxTest.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = RxTests.framework;
+			path = RxTest.framework;
 			remoteRef = 488743341D61931300BF70F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		488743371D61931300BF70F4 /* RxTests.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = RxTests.framework;
+			path = RxTest.framework;
 			remoteRef = 488743361D61931300BF70F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		488743391D61931300BF70F4 /* RxTests.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = RxTests.framework;
+			path = RxTest.framework;
 			remoteRef = 488743381D61931300BF70F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4887433B1D61931300BF70F4 /* RxTests.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = RxTests.framework;
+			path = RxTest.framework;
 			remoteRef = 4887433A1D61931300BF70F4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
